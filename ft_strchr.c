@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/11 15:40:34 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/07/01 13:38:28 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:51:00 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:51:01 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,18 +28,3 @@ char	*ft_strchr(const char *str, int c)
 	return (0);
 }
 
-// #include <stdio.h>
-// #include <string.h>
-// int	main (void)
-// {
-// 	char *string = "Hello there";
-// 	int j = '\0';
-
-// 	printf("String: %s\n", string);
-// 	printf("Pointer: %p\n", ft_strchr(string, j));
-
-// 	printf("String: %s\n", string);
-// 	printf("Pointer: %p\n", strchr(string, j));
-
-// 	return (0);
-// }

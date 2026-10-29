@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/11 17:52:10 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/06/17 19:54:21 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:50:14 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:50:15 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,16 +27,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	return (s);
 }
 
-// #include <stdio.h>
-// #include <string.h>
-
-// int	main(void)
-// {
-// 	char str[] = "Hello there!";
-
-// 	printf("Old string: %s\n", str);
-// 	printf("New string: %s\n", (char *)ft_memset(str, 'i', 3));
-// 	printf("New string: %s\n", (char *)memset(str, 'i', 3));
-
-// 	return (0);
-// }

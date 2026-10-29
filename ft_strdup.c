@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/17 20:40:03 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/06/20 21:29:33 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:51:09 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:51:11 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,25 +32,3 @@ char	*ft_strdup(const char *s1)
 	}
 	return (addycpy);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-// int	main(void)
-// {
-// 	char *str = "THE string~";
-// 	char *cpy;
-// 	//test ft_strdup
-// 	cpy = ft_strdup(str);
-// 	printf("Str: %s\n", str);
-// 	printf("Addy of cpy: %p\n", (void*)cpy);
-// 	printf("Cpy: %s\n", cpy);
-// 	free(cpy);
-// 	// //test strdup
-// 	// cpy = strdup(str);
-// 	// printf("Str: %s\n", str);
-// 	// printf("Addy of cpy: %p\n", (void *)cpy);
-// 	// printf("Cpy: %s\n", cpy);
-// 	// free(cpy);
-
-// 	return (0);
-// }

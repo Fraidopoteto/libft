@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/11 19:09:03 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/06/11 21:48:05 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:48:25 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:48:28 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,21 +25,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-
-// #include <stdio.h>
-// #include <string.h> 
-
-// int	main(void)
-// {
-// 	char	buffer[10] = "Helloo~";
-// 	unsigned int	j = 0;
-
-// 	ft_bzero(buffer, sizeof(buffer));
-// 	while (j < sizeof(buffer))
-// 	{
-// 		printf("%c", buffer[j]);
-// 		j++;
-// 	}
-// 	printf("\n");
-// 	return (0);
-// }

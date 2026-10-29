@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/10 14:26:18 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/06/11 14:19:13 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:48:52 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:48:56 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,18 +18,3 @@ int	ft_isalpha(int i)
 		return (0);
 }
 
-// #include <stdio.h>
-// #include <ctype.h>
-// int	main(void)
-// {
-// 	char	char1 = 'z';
-// 	char	char2 = ':';
-
-// 	printf("%d\n", ft_isalpha(char1));
-// 	printf("%d\n", ft_isalpha(char2));
-
-// 	printf("%d\n", isalpha(char1));
-// 	printf("%d\n", isalpha(char2));
-
-// 	return (0);
-// }

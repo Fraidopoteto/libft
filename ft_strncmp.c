@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/11 17:20:35 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/06/17 19:53:35 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:52:12 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:52:13 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,21 +26,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
 
-// #include <stdio.h>
-// #include <string.h>
-// int	main(void)
-// {
-// 	// //test1
-// 	// char *string1 = "zpple234";
-// 	// char *string2 = "zpple4";
-// 	// int n = 6;
-// 	//another test lol
-// 	char *string1 = "abcdefgh";
-// 	char *string2 = "abcdwxyz";
-// 	int n = 4;
-// 	printf("1st string: %s\n", string1);
-// 	printf("2nd string: %s\n", string2);
-// 	printf("%d\n", ft_strncmp(string1, string2, n));
-// 	printf("%d\n", strncmp(string1, string2, n));
-// 	return (0);
-// }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/17 20:15:14 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/07/05 06:01:36 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:51:39 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:51:41 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,21 +33,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	return (dstlen + srclen);
 }
 
-// #include <bsd/string.h>
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	const char source[] = "a! Buenos dias amigos";
-// 	char desti[] = "Hol";
-
-// 	printf("Desti: %s\n", desti);
-// 	printf("Source: %s\n", source);
-
-// 	size_t result = ft_strlcat(desti, source, sizeof(desti));
-// 	size_t result = ft_strlcat(desti, source, 10);
-// 	printf("ft_strlcat: %zu\n", result);
-// 	printf("Resulting desti : %s\n", desti);
-
-// 	return (0); 
-// }

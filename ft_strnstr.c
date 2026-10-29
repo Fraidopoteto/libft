@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/17 17:41:02 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/06/17 19:57:07 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:52:19 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:52:21 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,14 +35,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	return (0);
 }
 
-// // --> big[i], little[j]
-// #include <stdio.h>
-// #include <string.h>
-
-// int	main(void)
-// {
-// 	// char *result = ft_strnstr("hello how are you", "how", 7);
-// 	char *result = ft_strnstr("lorem ipsum dolor sit amet", "dolor", 15);
-// 	printf("%s", result);
-// 	return (0);
-// }

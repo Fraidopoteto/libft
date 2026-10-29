@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/17 14:40:49 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/07/05 02:32:11 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:50:04 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:50:05 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,24 +38,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-
-// int	main(void)
-// {
-// 	//const char source[20] ="Hello friends!~";
-// 	char desti[20] = "Oioioi what is this";
-// 	char desti2[20] = "Oioioi what is this";
-
-// 	// printf("Source: %s\n", source);
-// 	// printf("Dest before: %s\n", desti);
-// 	// printf("Mine): %s\n", (char *)ft_memmove(desti, source, 10));
-// 	// printf("Ctrl): %s\n", (char *)memmove(desti, source, 10));
-// 	// printf("Ovrlp 1(mine): %s\n", (char *)ft_memmove(desti, desti + 3, 10));
-// 	// printf("Ovrlp 1(ctrl): %s\n", (char *)memmove(desti2, desti2 + 3, 10));
-// 	// printf("Ovrlp 2(mine): %s\n", (char *)ft_memmove(desti + 3, desti, 10));
-// 	// printf("Ovrlp 2(ctrl): %s\n", (char *)memmove(desti2 + 3, desti2, 10));
-
-// 	return (0);
-// }

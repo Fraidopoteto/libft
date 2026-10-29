@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/18 15:54:00 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/07/04 21:06:43 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:52:50 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:52:52 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,19 +38,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[i] = '\0';
 	return (substr);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-// int	main(void)
-// {
-// 	char *themainstr = "THE string~";
-// 	char *thesubstr;
-
-// 	//test ft_substr
-// 	thesubstr = ft_substr(themainstr, 4, 6);
-// 	printf("Main String: %s\n", themainstr);
-// 	printf("Substring: %s\n", thesubstr);
-// 	free(thesubstr);
-
-// 	return (0);
-// }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/17 15:33:16 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/06/18 19:59:28 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:48:15 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:48:18 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,14 +35,3 @@ int	ft_atoi(const char *str)
 	}
 	return (res * norp);
 }
-
-// #include <stdio.h>
-// #include <stdlib.h>
-
-// int	main(void)
-// {
-// 	char *string = "-19";
-// 	printf("String: %s\n", string);
-// 	printf("ft_atoi: %i\n", ft_atoi(string));
-// 	printf("atoi: %i\n", atoi(string));
-// }

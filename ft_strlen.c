@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/11 14:13:03 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/07/05 06:05:41 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:51:56 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:51:57 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,18 +22,3 @@ size_t	ft_strlen(const char *str)
 	return (i);
 }
 
-// #include <stdio.h>
-// #include <string.h>
-
-// int	main(void)
-// {
-// 	char	*string;
-
-// 	string = "This is the string!";
-
-// 	printf("%s\n", string);
-// 	printf("Length of string: %d.\n", ft_strlen(string));
-// 	printf("Length of string: %lu.\n", strlen(string));
-
-// 	return (0);
-// }

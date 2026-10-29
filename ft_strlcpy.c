@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/17 20:15:11 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/07/05 05:33:36 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:51:47 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:51:48 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,20 +30,4 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	return (srclen);
 }
 
-// #include <bsd/string.h>
-// #include <stdio.h>
 
-// int	main(void)
-// {
-// 	const char source[6] = "hallo";
-// 	char desti[4];
-
-// 	printf("Source: %s\n", source);
-
-// 	// printf("ft_strlcpy: %zu\n", ft_strlcpy(desti, source, 4));
-// 	printf("strlcpy: %zu\n",strlcpy(desti, source, 10));
-
-// 	printf("Copied to desti: %s\n", desti);
-
-// 	return (0); 
-// }

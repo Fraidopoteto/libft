@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/18 15:58:04 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/07/04 15:42:27 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:50:28 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:50:30 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

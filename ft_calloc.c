@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/17 20:39:56 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/06/20 21:29:04 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:48:35 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:48:36 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,23 +31,3 @@ void	*ft_calloc(size_t count, size_t size)
 	}
 	return (addy);
 }
-
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	int	*array;
-// 	//test ft_calloc
-// 	array = (ft_calloc(5, sizeof(int)));
-// 	for (int in = 0; in < 5; in++)
-// 		printf("array[%d] = %d\n", in, array[in]);
-// 	printf("ft_calloc: %p\n", array);
-// 	free(array);
-
-// 	// // test calloc
-// 	// array = (calloc(5, sizeof(int)));
-// 	// for (int in = 0; in < 5; in++)
-// 	// 	printf("array[%d] = %d\n", in, array[in]);
-// 	// printf("calloc: %p\n", array);
-// 	// free(array);
-// 	return (0);
-// }

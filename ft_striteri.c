@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/18 15:58:21 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/07/04 14:02:14 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:51:20 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:51:22 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,23 +22,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	}
 }
 
-// #include <stdio.h>
-// #include <stdlib.h>
-
-// void	tst_function(unsigned int i, char *c)
-// {
-// 	(void)i;
-
-// 	if (*c >= 'a' && *c <= 'z')
-// 		*c -= 32;
-// }
-
-// int	main(void)
-// {
-// 	char	str[] = "Hola mundo";
-// 	printf("OG String: %s\n", str);
-// 	ft_striteri(str, tst_function);
-// 	printf("New String: %s\n", str);
-
-// 	return (0);
-// }

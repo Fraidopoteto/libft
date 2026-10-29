@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/11 16:47:22 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/07/01 19:08:16 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:52:32 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:52:34 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-//comrade\0
 
 char	*ft_strrchr(const char *s, int c)
 {
@@ -28,18 +26,3 @@ char	*ft_strrchr(const char *s, int c)
 	return (0);
 }
 
-// #include <stdio.h>
-// #include <string.h>
-
-// int	main (void)
-// {
-// 	char *string = "hello there~";
-
-// 	printf("String: %s\n", string);
-// 	printf("Pointer: %p\n", ft_strrchr(string, 'h'));
-
-// 	printf("String: %s\n", string);
-// 	printf("Pointer: %p\n", strrchr(string, 'h'));
-
-// 	return (0);
-// }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/18 15:58:14 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/07/05 02:29:12 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:50:46 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:50:54 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -122,16 +122,3 @@ static char	*space_length(char const *s, char c, int i)
 	return (wordspce);
 }
 
-// int main()
-// {
-// 	char **array = ft_split("ccccaccHola ac amiccc", 'c');
-// 	int i = 0;
-
-// 	while (array[i])
-// 	{
-// 		printf("Element %d: %s\n", i, array[i]);
-// 		i++;
-// 	}
-// 	free(array);
-// 	return 0;
-// }

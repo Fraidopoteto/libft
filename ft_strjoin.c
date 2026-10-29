@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/18 15:54:05 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/06/24 16:48:17 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:51:28 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:51:33 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,18 +40,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	return (str);
 }
 
-// #include <string.h>
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char one[] = "Hola! ";
-// 	char two[] = "Buenas~";
-// 	char *three= ft_strjoin(one, two);
-
-// 	printf("String one: %s\n", one);
-// 	printf("String two: %s\n", two);
-// 	printf("ft_strjoin: %s\n", three);
-// 	free(three);
-// 	return (0); 
-// }

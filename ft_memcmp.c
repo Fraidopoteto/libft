@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/17 14:40:46 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/06/17 15:00:06 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:49:43 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:49:45 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,21 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 		return (0);
 	return (t1[i] - t2[i]);
 }
-
-// #include <stdio.h>
-// #include <string.h>
-
-// int	main(void)
-// {
-// 	// unsigned char string1[20] = "Hello there!";
-// 	// unsigned char string2[20] = "Hello friend";
-// 	unsigned char string1[10] = "atoms\0\0\0\0";
-// 	unsigned char string2[10] = "atoms\0abc";
-
-// 	printf("String1: %s\n", string1);
-// 	printf("String2: %s\n", string2);
-// 	printf("Comparison(mine): %d\n", ft_memcmp(string1, string2, 8));
-// 	printf("Comparison(ctrl): %d\n", memcmp(string1, string2, 8));
-
-// 	return (0);
-// }

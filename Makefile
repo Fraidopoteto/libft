@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: Furaido <Furaido@student.42.fr>            +#+  +:+       +#+         #
+#    By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/06/20 20:51:57 by mfrenzel          #+#    #+#              #
-#    Updated: 2024/11/12 19:05:21 by Furaido          ###   ########.fr        #
+#    Created: 2026/10/29 10:53:26 by joschmun          #+#    #+#              #
+#    Updated: 2026/10/29 10:53:35 by joschmun         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 

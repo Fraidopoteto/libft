@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/18 15:57:47 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/07/05 05:47:18 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:49:23 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:49:28 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,16 +57,3 @@ char	*ft_itoa(int n)
 	return (res_str);
 }
 
-// #include <stdio.h>
-// #include <limits.h>
-// int	main(void)
-// {
-// 	int nbr;
-// 	char *str;
-// 	//nbr = 0;
-// 	nbr = INT_MIN;
-// 	str = ft_itoa(nbr);
-// 	printf("Number %d as string: %s\n", nbr, str);
-// 	free(str);
-// 	return (0);
-// }

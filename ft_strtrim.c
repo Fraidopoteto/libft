@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/18 15:53:31 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/06/24 22:00:36 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:52:41 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:52:43 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,16 +38,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	return (result);
 }
 
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char *mainstr = "abbaHolisabba";
-// 	char *seteu = "ab";
-// 	char *trmstr = ft_strtrim(mainstr, seteu);
-
-// 	printf("Main: %s\n", mainstr);
-// 	printf("Trimmed Main: %s\n", trmstr);
-// 	free(trmstr);
-// 	return (0);
-// }

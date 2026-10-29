@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfrenzel <mfrenzel@student.42.fr>          +#+  +:+       +#+        */
+/*   By: joschmun <joschmun@student.42wolfsburg>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/17 14:40:38 by mfrenzel          #+#    #+#             */
-/*   Updated: 2024/06/17 20:11:10 by mfrenzel         ###   ########.fr       */
+/*   Created: 2026/10/29 10:49:31 by joschmun          #+#    #+#             */
+/*   Updated: 2026/10/29 10:49:35 by joschmun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,16 +31,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	return (NULL);
 }
 
-// #include <stdio.h>
-// #include <string.h>
-
-// int	main(void)
-// {
-// 	const char	string[20] = "Hello there~";
-
-// 	printf("String: %s\n", string);
-// 	printf("Location (mine): %p\n", (char *)ft_memchr(string, 'e', 5));
-// 	printf("Location (ctrl): %p\n", (char *)memchr(string, 'e', 5));
-
-// 	return (0);
-// }
